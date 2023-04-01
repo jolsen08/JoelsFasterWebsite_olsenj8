@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Outlet } from 'react-router-dom';
-import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
 
 const styles = {
   card: {
@@ -28,6 +28,10 @@ function Home() {
           <CardTitle className="h3 mb-2 pt-2 font-weight-bold text-primary text-white">
             Welcome to Joel Hilton's Movie Collection
           </CardTitle>
+          <CardSubtitle className="h6 mb-2 pt-2 font-weight-bold text-primary text-white">
+            Here you will find Joel's personal movie collection and also a link
+            to his baconsale podcast!
+          </CardSubtitle>
 
           <div>
             <CardImg
